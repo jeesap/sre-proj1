@@ -3364,10 +3364,10 @@ prometheus:
     ## Expected values are the secret name and key
     ## Cannot be used with additionalScrapeConfigs
     additionalScrapeConfigsSecret: {}
-      # enabled: false
-      # name:
-      # key:
-
+       enabled: true
+       name: additional-scrape-configs
+       key: prometheus-additional.yaml
+       
     ## additionalPrometheusSecretsAnnotations allows to add annotations to the kubernetes secret. This can be useful
     ## when deploying via spinnaker to disable versioning on the secret, strategy.spinnaker.io/versioned: 'false'
     additionalPrometheusSecretsAnnotations: {}
