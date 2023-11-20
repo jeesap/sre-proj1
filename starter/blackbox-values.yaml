@@ -110,7 +110,7 @@ configExistingSecretName: ""
 #         follow_redirects: true
 #         preferred_ip_protocol: "ip4"
          valid_status_codes:
-         - 200
+           - 200
 #         # - 401
 #         # - 403
          bearer_token: RK6PT17NIRIAZ1MEVQHCLF4KK75UJ2RMGU10N0JT0R3QT6YKZZ
