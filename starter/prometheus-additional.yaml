@@ -4,9 +4,7 @@
     module: [http_2xx]
   static_configs:
     - targets:
-        - http://13.226.50.80 # udacity
-        - http://209.140.148.143 # ebay
-        - http://40.89.244.232 # duckduckgo
+        - http://34.204.92.49 # EC2
   relabel_configs:
   - source_labels: [__address__]
     target_label: __param_target
