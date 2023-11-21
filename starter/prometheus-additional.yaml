@@ -4,7 +4,7 @@
     module: [http_2xx]
   static_configs:
     - targets:
-        - http://34.204.92.49 # EC2
+        - http://54.162.77.65 # EC2
   relabel_configs:
   - source_labels: [__address__]
     target_label: __param_target
