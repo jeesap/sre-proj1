@@ -4,7 +4,7 @@
     module: [http_2xx]
   static_configs:
     - targets:
-        - http://52.55.2.114 #EC2
+        - http://54.91.24.110 ##EC2
   relabel_configs:
   - source_labels: [__address__]
     target_label: __param_target
